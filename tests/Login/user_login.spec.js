@@ -7,7 +7,6 @@ test.beforeEach(async ({ page }, testInfo) => {
 
     testInfo.setTimeout(testInfo.timeout + 100000);
 
-    //force a logout before going to sign in page
     await page.goto('https://www.saucedemo.com/');
 
 });
