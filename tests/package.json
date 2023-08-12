@@ -4,7 +4,8 @@
   "description": "",
   "main": "user_login.spec.js",
   "scripts": {
-    "check-login": "npx playwright test user_login.spec.js --workers=1 --project=chromium --headed"
+    "check-login": "npx playwright test user_login.spec.js --workers=1 --project=chromium --headed",
+    "check-items": "npx playwright test verify_items.spec.js --workers=1 --project=chromium --headed"
   },
   "keywords": [],
   "author": "",
